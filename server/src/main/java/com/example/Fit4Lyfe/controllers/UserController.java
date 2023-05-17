@@ -16,7 +16,7 @@ public class UserController {
     @Autowired //injects userService bean from the application context
     private UserService userService;
 
-    @GetMapping("")
+    @GetMapping("")//huhjhjhjhj
     public ResponseEntity<?> getAllUsers() {
         return userService.getAllUsers();
     }
